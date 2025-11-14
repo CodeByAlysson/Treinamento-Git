@@ -1,4 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url("mountain-landscape-5120x2880-24317.jpg");
+    background-size: cover;
+    background-position: auto;
     background-color: blueviolet;
+    font-size: 50px;
+
+    color: rgb(62, 201, 247);
 }
