@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     background-image: url("mountain-landscape-5120x2880-24317.jpg");
     background-size: cover;
-    background-position: auto;
+    background-position: center;
     background-color: blueviolet;
-    font-size: 50px;
+    font-size: 16px;
     text-align: left;
-;
+
 }
 
 .titulo {
@@ -43,7 +43,7 @@ body {
     color: rgb(239, 241, 242);
     text-align: justify;
     margin: 20px;
-    display: flex;
+    display: block;
     align-items: center;
     gap: 50px;
 }
@@ -53,7 +53,7 @@ body {
     color: rgb(255, 255, 255);
     text-align: justify;
     margin: 20px;
-    display: flex;
+    display: block;
     align-items: center;
     gap: 10px;
 }
@@ -63,7 +63,7 @@ body {
     color: rgb(239, 241, 242);
     text-align: justify;
     margin: 20px;
-    display: flex;
+    display: block;
     align-items: center;
     gap: 50px;
 }
@@ -73,7 +73,7 @@ body {
     color: rgb(200, 200, 200);
     text-align: right;
     margin: 30px;
-    display: flex;
+    display: block;
     align-items: right;
     gap: 10px;
 }
