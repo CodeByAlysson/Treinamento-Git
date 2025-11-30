@@ -58,7 +58,7 @@ section {
 .link1,
 .link2 {
     font-size: 30px;
-    color: rgb(239, 241, 242);
+    color: rgb(241, 244, 245);
 }
 
 .link1 a,
@@ -80,16 +80,29 @@ section {
 }
 
 .link2 a:active {
-    color: black;
+    color: rgb(201, 6, 6);
 }
 
 /* ===== Créditos Flaticon ===== */
 .ref {
-    font-size: 20px;
-    color: rgb(19, 202, 234);
+    font-size: 30px;
+    color: rgb(5, 195, 237);
     text-align: right;
     margin: 30px 20px;
     display: block;
+}
+.ref a {
+    color: rgb(13, 230, 215);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.ref a:hover {
+    color: rgb(8, 239, 243);
+    text-decoration: underline;
+}
+.ref a:active {
+    color: rgb(240, 144, 9);
 }
 
 /* ===== Barra de Progresso ===== */
