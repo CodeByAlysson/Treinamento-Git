@@ -1,74 +1,101 @@
+/* ===== Estilo Geral ===== */
 body {
     font-family: Arial, sans-serif;
     background-image: url("mountain-landscape-5120x2880-24317.jpg");
     background-size: cover;
     background-position: center;
-    background-color: blueviolet;
+    background-color: blueviolet; /* Apenas se a imagem não carregar */
     font-size: 16px;
-    text-align: left;
-
+    margin: 0;
+    padding: 0;
 }
 
+/* ===== Título Principal ===== */
 .titulo {
     font-size: 60px;
     color: rgb(14, 133, 231);
     text-align: center;
-    padding-top: 40px;
-    border-radius: 15px;
-    border-top-right-radius: 30px;
+    margin: 40px 20px 20px 20px;
+    border-radius: 15px 30px 15px 15px;
 }
 
+/* ===== Subtítulo Principal ===== */
 .subtitulo {
     font-size: 50px;
     color: rgb(240, 240, 240);
     text-align: center;
-    text-decoration-color: #4a90e2;
-    text-decoration-thickness: 4px;
 }
 
-.subtitulo1 {
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    text-align: justify;
+/* ===== Estrutura das Seções ===== */
+section {
+    background: rgba(0, 0, 0, 0.4); /* Transparência para leitura melhor */
+    border-radius: 20px;
     margin: 20px;
+    padding: 20px;
+    backdrop-filter: blur(3px); /* efeito bonito */
+}
+
+/* ===== Subtítulos de Seção ===== */
+.subtitulo1, .subtitulo2 {
+    font-size: 50px;
+    color: #fff;
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 10px;
 }
 
-.paragrafo1 {
+/* ===== Parágrafos ===== */
+.paragrafo1, .paragrafo2 {
     font-size: 30px;
     color: rgb(239, 241, 242);
     text-align: justify;
-    margin: 20px;
-    display: block;
-    gap: 50px;
+    margin: 20px 0;
 }
 
-.subtitulo2 {
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+/* ===== Links Dentro dos Parágrafos ===== */
 
-.paragrafo2 {
+.link1,
+.link2 {
     font-size: 30px;
     color: rgb(239, 241, 242);
-    text-align: justify;
-    margin: 20px;
-    display: block;
-    gap: 50px;
 }
 
+.link1 a,
+.link2 a {
+    color: rgb(13, 230, 215);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.link1 a:hover,
+.link2 a:hover {
+    color: rgb(8, 90, 243);
+    text-decoration: underline;
+}
+
+.link1 a:active {
+    color: rgb(240, 144, 9);
+}
+
+.link2 a:active {
+    color: black;
+}
+
+/* ===== Créditos Flaticon ===== */
 .ref {
     font-size: 20px;
-    color: rgb(200, 200, 200);
+    color: rgb(19, 202, 234);
     text-align: right;
-    margin: 30px;
+    margin: 30px 20px;
     display: block;
-    gap: 10px;
+}
+
+/* ===== Barra de Progresso ===== */
+progress {
+    width: 90%;
+    height: 18px;
+    margin: 20px auto;
+    display: block;
 }
